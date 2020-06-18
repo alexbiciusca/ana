@@ -81,12 +81,6 @@ ul, p{
   justify-content: space-between;
 }
 
-.email{
-  display: flex;
-  flex-flow: row wrap;
-}
-
-
 
 #email{
   background-color: rgba(255, 170, 0, 0.0);
@@ -115,7 +109,7 @@ input[type=submit] {
 input::placeholder {
   font-family: "DINCond";
   font-size: 26px;
-  font-weight: 600;  
+  font-weight: 600;
 }
 
 input:focus {
