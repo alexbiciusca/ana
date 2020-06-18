@@ -98,6 +98,25 @@ ul, p{
   justify-content: space-between;
 }
 
+.offer{
+  flex-grow: 1;
+}
+
+.submit{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email{
+  display: flex;
+}
+
+.email input[type="email"]{
+  flex-grow: 2;
+}
+
 #email{
   background-color: rgba(255, 170, 0, 0.0);
   border: none;
@@ -191,6 +210,9 @@ input[type="checkbox" i]{
   }
   .TYContent .title{
     font-size: 30px;
+  }
+  .submit{
+    margin-right: 15px;
   }
 }
 
