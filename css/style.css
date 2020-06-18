@@ -214,6 +214,9 @@ input[type="checkbox" i]{
   .submit{
     margin-right: 15px;
   }
+  input[type=submit] {
+    width: 75px;
+  }
 }
 
 @media (max-width: 450px) {
