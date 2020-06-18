@@ -81,10 +81,12 @@ ul, p{
   justify-content: space-between;
 }
 
-
 #email{
   background-color: rgba(255, 170, 0, 0.0);
   border: none;
+  font-family: "DINCond";
+  font-size: 26px;
+  font-weight: bold;
 }
 
 #email:focus{
