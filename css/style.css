@@ -112,6 +112,12 @@ input[type=submit] {
   border-radius: 15px;
 }
 
+input::placeholder {
+  font-family: "DINCond";
+  font-size: 26px;
+  font-weight: 600;  
+}
+
 input:focus {
     outline-offset: 0px;
 }
